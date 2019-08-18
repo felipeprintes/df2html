@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pandas and HTML</title>
+	<link rel="stylesheet" type="text/css" href="../static/bootstrap.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<h2>visualização de dados com HTML</h2><br>
+		<h2>Head dos dados</h2>
+		{% for t in tables %}
+			<h4>{{titles[loop.index]}}</h4>
+			{{t|safe}}
+		{% endfor %}
+</body>
+</html>
