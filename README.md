@@ -15,5 +15,5 @@ pequeno código para visualizar um pandas DataFrame com html e estilizado com bo
 <p>templates: Possui o código HTML <p>
 
 ## Arquivos
-<p>app.pt: Código flask <p>
+<p>app.py: Código flask <p>
 <p>returncsv.py: Função python que retorna o caminho do arquivo csv <p>
